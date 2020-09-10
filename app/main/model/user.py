@@ -1,5 +1,6 @@
 from .. import db, flask_bcrypt
 
+
 class User(db.Model):
     """ User Model for storing user related details """
     __tablename__ = "user"
